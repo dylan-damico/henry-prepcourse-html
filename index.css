@@ -1,0 +1,79 @@
+h1{
+    color: hotpink;
+}
+
+table, form, main{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(230, 230, 190);
+}
+
+header, caption{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+    background-color: aliceblue;
+    text-align: center;
+    color: hotpink;
+}
+
+nav{
+    height: 40px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+    text-align: left;
+    border-style: groove;
+    border-width: 2px;
+    list-style-type: none;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    height: auto;
+    width: 100%;
+    margin: 20px 0px;
+    padding: 0px;
+    background-color: bisque;
+    list-style-type: none;
+}
+
+li{
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    padding: 10px 20px;
+}
+
+a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    background-color: azure;
+    margin: 0px 10px;
+    padding: 10px 15px;
+    transition: 0.3s ease-in-out;
+    border: 3px double black;
+}
+
+img{
+    height: auto;
+    width: 100%;
+    margin: 20px;
+    padding: 0px;
+    border: 1px solid black;
+}
+
+label, input, textarea{
+    display: block;
+    margin: 10px;
+    padding: 0px;
+}
